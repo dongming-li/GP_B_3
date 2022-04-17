@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Title"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:text="Rides Found"
+        />
+
+    <TextView
+        android:id="@+id/Rides_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:singleLine="false"
+        />
+
+</LinearLayout>

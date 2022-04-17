@@ -1,0 +1,118 @@
+\hypertarget{namespacecreate__and__find__rides}{\section{create\-\_\-and\-\_\-find\-\_\-rides Namespace Reference}
+\label{namespacecreate__and__find__rides}\index{create\-\_\-and\-\_\-find\-\_\-rides@{create\-\_\-and\-\_\-find\-\_\-rides}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacecreate__and__find__rides_a070f71776ce558d1b57a72ee0720fe2e}{test\-\_\-create\-\_\-pending}
+\item 
+def \hyperlink{namespacecreate__and__find__rides_a7968cb251a6c9fcec8a3ca5269201d77}{create\-\_\-pending}
+\begin{DoxyCompactList}\small\item\em Creates a single ride. \end{DoxyCompactList}\item 
+def \hyperlink{namespacecreate__and__find__rides_aa33ddd45e27b015236a6029d6860808c}{fetch\-\_\-pending}
+\begin{DoxyCompactList}\small\item\em Fetches a list of all current rides. \end{DoxyCompactList}\item 
+def \hyperlink{namespacecreate__and__find__rides_a06255e29766f0847ebe3b0a89bd8e8cb}{fetch\-\_\-email\-\_\-driver}
+\begin{DoxyCompactList}\small\item\em Fetches a list of all current rides. \end{DoxyCompactList}\item 
+def \hyperlink{namespacecreate__and__find__rides_af630a8153e1b79e0defb1cc67965c68f}{fetch\-\_\-email\-\_\-rider}
+\begin{DoxyCompactList}\small\item\em Fetches a list of all current rides. \end{DoxyCompactList}\item 
+def \hyperlink{namespacecreate__and__find__rides_a691898eed45d5b5d830047b911ecdd64}{delete\-\_\-ride}
+\begin{DoxyCompactList}\small\item\em Deletes a single ride. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacecreate__and__find__rides_a7968cb251a6c9fcec8a3ca5269201d77}{\index{create\-\_\-and\-\_\-find\-\_\-rides@{create\-\_\-and\-\_\-find\-\_\-rides}!create\-\_\-pending@{create\-\_\-pending}}
+\index{create\-\_\-pending@{create\-\_\-pending}!create_and_find_rides@{create\-\_\-and\-\_\-find\-\_\-rides}}
+\subsubsection[{create\-\_\-pending}]{\setlength{\rightskip}{0pt plus 5cm}def create\-\_\-and\-\_\-find\-\_\-rides.\-create\-\_\-pending (
+\begin{DoxyParamCaption}
+\item[{}]{input\-\_\-json}
+\end{DoxyParamCaption}
+)}}\label{namespacecreate__and__find__rides_a7968cb251a6c9fcec8a3ca5269201d77}
+
+
+Creates a single ride. 
+
+This function directly interfaces with the database to create rides. 
+\begin{DoxyParams}{Parameters}
+{\em input\-\_\-json} & J\-S\-O\-N in the format \{'time', 'start\-\_\-lat', 'start\-\_\-long', 'end\-\_\-lat', 'end\-\_\-long', 'max\-\_\-passengers', 'driver\-\_\-\-U\-I\-D', 'max\-\_\-radius'\} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{namespacecreate__and__find__rides_a691898eed45d5b5d830047b911ecdd64}{\index{create\-\_\-and\-\_\-find\-\_\-rides@{create\-\_\-and\-\_\-find\-\_\-rides}!delete\-\_\-ride@{delete\-\_\-ride}}
+\index{delete\-\_\-ride@{delete\-\_\-ride}!create_and_find_rides@{create\-\_\-and\-\_\-find\-\_\-rides}}
+\subsubsection[{delete\-\_\-ride}]{\setlength{\rightskip}{0pt plus 5cm}def create\-\_\-and\-\_\-find\-\_\-rides.\-delete\-\_\-ride (
+\begin{DoxyParamCaption}
+\item[{}]{ride\-\_\-\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{namespacecreate__and__find__rides_a691898eed45d5b5d830047b911ecdd64}
+
+
+Deletes a single ride. 
+
+This function deletes a single ride from the database. 
+\begin{DoxyParams}{Parameters}
+{\em ride\-\_\-\-I\-D} & The unique I\-D associated with a ride used to select which to delete from the database. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{namespacecreate__and__find__rides_a06255e29766f0847ebe3b0a89bd8e8cb}{\index{create\-\_\-and\-\_\-find\-\_\-rides@{create\-\_\-and\-\_\-find\-\_\-rides}!fetch\-\_\-email\-\_\-driver@{fetch\-\_\-email\-\_\-driver}}
+\index{fetch\-\_\-email\-\_\-driver@{fetch\-\_\-email\-\_\-driver}!create_and_find_rides@{create\-\_\-and\-\_\-find\-\_\-rides}}
+\subsubsection[{fetch\-\_\-email\-\_\-driver}]{\setlength{\rightskip}{0pt plus 5cm}def create\-\_\-and\-\_\-find\-\_\-rides.\-fetch\-\_\-email\-\_\-driver (
+\begin{DoxyParamCaption}
+\item[{}]{email}
+\end{DoxyParamCaption}
+)}}\label{namespacecreate__and__find__rides_a06255e29766f0847ebe3b0a89bd8e8cb}
+
+
+Fetches a list of all current rides. 
+
+This function directly interfaces with the database to return all records associated with a particular user email as the driver 
+\begin{DoxyParams}{Parameters}
+{\em email} & The email address of the user to check for driver records. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{namespacecreate__and__find__rides_af630a8153e1b79e0defb1cc67965c68f}{\index{create\-\_\-and\-\_\-find\-\_\-rides@{create\-\_\-and\-\_\-find\-\_\-rides}!fetch\-\_\-email\-\_\-rider@{fetch\-\_\-email\-\_\-rider}}
+\index{fetch\-\_\-email\-\_\-rider@{fetch\-\_\-email\-\_\-rider}!create_and_find_rides@{create\-\_\-and\-\_\-find\-\_\-rides}}
+\subsubsection[{fetch\-\_\-email\-\_\-rider}]{\setlength{\rightskip}{0pt plus 5cm}def create\-\_\-and\-\_\-find\-\_\-rides.\-fetch\-\_\-email\-\_\-rider (
+\begin{DoxyParamCaption}
+\item[{}]{email}
+\end{DoxyParamCaption}
+)}}\label{namespacecreate__and__find__rides_af630a8153e1b79e0defb1cc67965c68f}
+
+
+Fetches a list of all current rides. 
+
+This function directly interfaces with the database to return all records associated with a particular user email as the rider. 
+\begin{DoxyParams}{Parameters}
+{\em email} & The email address of the user to check for rider records. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{namespacecreate__and__find__rides_aa33ddd45e27b015236a6029d6860808c}{\index{create\-\_\-and\-\_\-find\-\_\-rides@{create\-\_\-and\-\_\-find\-\_\-rides}!fetch\-\_\-pending@{fetch\-\_\-pending}}
+\index{fetch\-\_\-pending@{fetch\-\_\-pending}!create_and_find_rides@{create\-\_\-and\-\_\-find\-\_\-rides}}
+\subsubsection[{fetch\-\_\-pending}]{\setlength{\rightskip}{0pt plus 5cm}def create\-\_\-and\-\_\-find\-\_\-rides.\-fetch\-\_\-pending (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{namespacecreate__and__find__rides_aa33ddd45e27b015236a6029d6860808c}
+
+
+Fetches a list of all current rides. 
+
+This function directly interfaces with the database to return all records of rides \begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{namespacecreate__and__find__rides_a070f71776ce558d1b57a72ee0720fe2e}{\index{create\-\_\-and\-\_\-find\-\_\-rides@{create\-\_\-and\-\_\-find\-\_\-rides}!test\-\_\-create\-\_\-pending@{test\-\_\-create\-\_\-pending}}
+\index{test\-\_\-create\-\_\-pending@{test\-\_\-create\-\_\-pending}!create_and_find_rides@{create\-\_\-and\-\_\-find\-\_\-rides}}
+\subsubsection[{test\-\_\-create\-\_\-pending}]{\setlength{\rightskip}{0pt plus 5cm}def create\-\_\-and\-\_\-find\-\_\-rides.\-test\-\_\-create\-\_\-pending (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{namespacecreate__and__find__rides_a070f71776ce558d1b57a72ee0720fe2e}

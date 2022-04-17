@@ -1,0 +1,238 @@
+\hypertarget{namespacechange__user}{\section{change\-\_\-user Namespace Reference}
+\label{namespacechange__user}\index{change\-\_\-user@{change\-\_\-user}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacechange__user_a659ef01da6a4d2b42bd2a1a7a20aff82}{delete\-\_\-user}
+\begin{DoxyCompactList}\small\item\em Deletes a single user account. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_a55e4dca2c594cfd39754a01ce778ef9a}{change\-\_\-password}
+\begin{DoxyCompactList}\small\item\em Changes the password of a given user. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_ad97543748a796599440f187d99aa27b7}{change\-\_\-firstname}
+\begin{DoxyCompactList}\small\item\em Changes the admin status of a given user. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_abc383e3623dfdab816dfa9b8c8b364d2}{change\-\_\-lastname}
+\begin{DoxyCompactList}\small\item\em Changes the admin status of a given user. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_a6ff2081ffbd4d5bf900401cf294a99d4}{change\-\_\-email}
+\begin{DoxyCompactList}\small\item\em Changes the email address of a given user. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_a5458e60e6f6c560cae61bb44a3d5f2fc}{change\-\_\-rider\-\_\-status}
+\begin{DoxyCompactList}\small\item\em Changes the rider status of a given user. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_a733b991c65b45b4b27a158a3d7ae94e2}{change\-\_\-driver\-\_\-status}
+\begin{DoxyCompactList}\small\item\em Changes the driver status of a given user. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_a615119a4245f83c2a993858d8c15636d}{change\-\_\-admin\-\_\-status}
+\begin{DoxyCompactList}\small\item\em Changes the admin status of a given user. \end{DoxyCompactList}\item 
+def \hyperlink{namespacechange__user_aa8f1cff6b9c8304ebd2c3b620947171f}{change\-\_\-ban\-\_\-status}
+\begin{DoxyCompactList}\small\item\em Changes the ban status of a given user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacechange__user_a615119a4245f83c2a993858d8c15636d}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-admin\-\_\-status@{change\-\_\-admin\-\_\-status}}
+\index{change\-\_\-admin\-\_\-status@{change\-\_\-admin\-\_\-status}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-admin\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-admin\-\_\-status (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{status}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_a615119a4245f83c2a993858d8c15636d}
+
+
+Changes the admin status of a given user. 
+
+This function modifies the admin status of a given account by fetching the U\-I\-D and using it to change the admin field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em status} & The new administrator status of the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_aa8f1cff6b9c8304ebd2c3b620947171f}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-ban\-\_\-status@{change\-\_\-ban\-\_\-status}}
+\index{change\-\_\-ban\-\_\-status@{change\-\_\-ban\-\_\-status}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-ban\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-ban\-\_\-status (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{status}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_aa8f1cff6b9c8304ebd2c3b620947171f}
+
+
+Changes the ban status of a given user. 
+
+This function modifies the ban status of a given account by fetching the U\-I\-D and using it to change the ban field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em status} & The new status of the account's ban. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_a733b991c65b45b4b27a158a3d7ae94e2}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-driver\-\_\-status@{change\-\_\-driver\-\_\-status}}
+\index{change\-\_\-driver\-\_\-status@{change\-\_\-driver\-\_\-status}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-driver\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-driver\-\_\-status (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{status}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_a733b991c65b45b4b27a158a3d7ae94e2}
+
+
+Changes the driver status of a given user. 
+
+This function modifies the driver status of a given account by fetching the U\-I\-D and using it to change the admin field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em status} & The new driver status of the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_a6ff2081ffbd4d5bf900401cf294a99d4}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-email@{change\-\_\-email}}
+\index{change\-\_\-email@{change\-\_\-email}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-email}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-email (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{new\-\_\-email}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_a6ff2081ffbd4d5bf900401cf294a99d4}
+
+
+Changes the email address of a given user. 
+
+This function modifies the email address of a given account by fetching the U\-I\-D and using it to change the email field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em new\-\_\-email} & The new email address to be associated with the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_ad97543748a796599440f187d99aa27b7}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-firstname@{change\-\_\-firstname}}
+\index{change\-\_\-firstname@{change\-\_\-firstname}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-firstname}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-firstname (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{firstname}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_ad97543748a796599440f187d99aa27b7}
+
+
+Changes the admin status of a given user. 
+
+This function modifies the first name of a given account by fetching the U\-I\-D and using it to change the firstname field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em firstname} & The new first name to be associated with the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_abc383e3623dfdab816dfa9b8c8b364d2}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-lastname@{change\-\_\-lastname}}
+\index{change\-\_\-lastname@{change\-\_\-lastname}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-lastname}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-lastname (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{lastname}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_abc383e3623dfdab816dfa9b8c8b364d2}
+
+
+Changes the admin status of a given user. 
+
+This function modifies the last name of a given account by fetching the U\-I\-D and using it to change the lastname field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em lastname} & The new last name to be associated with the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_a55e4dca2c594cfd39754a01ce778ef9a}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-password@{change\-\_\-password}}
+\index{change\-\_\-password@{change\-\_\-password}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-password}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-password (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{password}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_a55e4dca2c594cfd39754a01ce778ef9a}
+
+
+Changes the password of a given user. 
+
+This function modifies the password of a given account by fetching the U\-I\-D and using it to change the password field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em password} & The new password for the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_a5458e60e6f6c560cae61bb44a3d5f2fc}{\index{change\-\_\-user@{change\-\_\-user}!change\-\_\-rider\-\_\-status@{change\-\_\-rider\-\_\-status}}
+\index{change\-\_\-rider\-\_\-status@{change\-\_\-rider\-\_\-status}!change_user@{change\-\_\-user}}
+\subsubsection[{change\-\_\-rider\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-change\-\_\-rider\-\_\-status (
+\begin{DoxyParamCaption}
+\item[{}]{email, }
+\item[{}]{status}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_a5458e60e6f6c560cae61bb44a3d5f2fc}
+
+
+Changes the rider status of a given user. 
+
+This function modifies the admin status of a given account by fetching the U\-I\-D and using it to change the rider field in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be modified. \\
+\hline
+{\em status} & The new rider status of the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 on success, 0 on failure 
+\end{DoxyReturn}
+\hypertarget{namespacechange__user_a659ef01da6a4d2b42bd2a1a7a20aff82}{\index{change\-\_\-user@{change\-\_\-user}!delete\-\_\-user@{delete\-\_\-user}}
+\index{delete\-\_\-user@{delete\-\_\-user}!change_user@{change\-\_\-user}}
+\subsubsection[{delete\-\_\-user}]{\setlength{\rightskip}{0pt plus 5cm}def change\-\_\-user.\-delete\-\_\-user (
+\begin{DoxyParamCaption}
+\item[{}]{email}
+\end{DoxyParamCaption}
+)}}\label{namespacechange__user_a659ef01da6a4d2b42bd2a1a7a20aff82}
+
+
+Deletes a single user account. 
+
+This function deletes a single user account from the database entirely after looking up its U\-I\-D. 
+\begin{DoxyParams}{Parameters}
+{\em email} & The email of the user account to be deleted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a 1 on success, 0 on failure 
+\end{DoxyReturn}

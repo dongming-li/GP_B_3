@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RateYourDriver</string>
+    <string name="thank_you">Thank You for riding with Pool Party!</string>
+    <string name="rating_question">How would you rate your experience riding with Joe Smith?</string>
+    <string name="leaveComment">Leave a comment:</string>
+    <string name="Submit">Submit</string>
+</resources>

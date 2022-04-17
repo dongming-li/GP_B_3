@@ -1,0 +1,78 @@
+\hypertarget{namespacejoin__and__leave__rides}{\section{join\-\_\-and\-\_\-leave\-\_\-rides Namespace Reference}
+\label{namespacejoin__and__leave__rides}\index{join\-\_\-and\-\_\-leave\-\_\-rides@{join\-\_\-and\-\_\-leave\-\_\-rides}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacejoin__and__leave__rides_a16b5b2d68a757d2b4544df177b3d622c}{leave\-\_\-ride}
+\begin{DoxyCompactList}\small\item\em This method removes a user from a ride This method directly interfaces with the database via the My\-S\-Q\-Ldb package to remove a user from a single ride. \end{DoxyCompactList}\item 
+def \hyperlink{namespacejoin__and__leave__rides_a973bd03a203dbbd7f834f605d2714ba3}{join\-\_\-ride}
+\begin{DoxyCompactList}\small\item\em This method adds a single user to an existing ride This method directly interfaces with the database via the My\-S\-Q\-Ldb package to add user to a single ride. \end{DoxyCompactList}\item 
+def \hyperlink{namespacejoin__and__leave__rides_a641786db63d9853db1441dba61bcf448}{get\-\_\-riders}
+\begin{DoxyCompactList}\small\item\em This method finds all riders associated with a particular ride. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacejoin__and__leave__rides_a641786db63d9853db1441dba61bcf448}{\index{join\-\_\-and\-\_\-leave\-\_\-rides@{join\-\_\-and\-\_\-leave\-\_\-rides}!get\-\_\-riders@{get\-\_\-riders}}
+\index{get\-\_\-riders@{get\-\_\-riders}!join_and_leave_rides@{join\-\_\-and\-\_\-leave\-\_\-rides}}
+\subsubsection[{get\-\_\-riders}]{\setlength{\rightskip}{0pt plus 5cm}def join\-\_\-and\-\_\-leave\-\_\-rides.\-get\-\_\-riders (
+\begin{DoxyParamCaption}
+\item[{}]{ride\-\_\-\-I\-D}
+\end{DoxyParamCaption}
+)}}\label{namespacejoin__and__leave__rides_a641786db63d9853db1441dba61bcf448}
+
+
+This method finds all riders associated with a particular ride. 
+
+This method directly interfaces with the database via the My\-S\-Q\-Ldb package to get all riders in a single ride 
+\begin{DoxyParams}{Parameters}
+{\em ride\-\_\-\-I\-D} & The ride I\-D associated with a unique ride. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{namespacejoin__and__leave__rides_a973bd03a203dbbd7f834f605d2714ba3}{\index{join\-\_\-and\-\_\-leave\-\_\-rides@{join\-\_\-and\-\_\-leave\-\_\-rides}!join\-\_\-ride@{join\-\_\-ride}}
+\index{join\-\_\-ride@{join\-\_\-ride}!join_and_leave_rides@{join\-\_\-and\-\_\-leave\-\_\-rides}}
+\subsubsection[{join\-\_\-ride}]{\setlength{\rightskip}{0pt plus 5cm}def join\-\_\-and\-\_\-leave\-\_\-rides.\-join\-\_\-ride (
+\begin{DoxyParamCaption}
+\item[{}]{ride\-\_\-\-I\-D, }
+\item[{}]{email}
+\end{DoxyParamCaption}
+)}}\label{namespacejoin__and__leave__rides_a973bd03a203dbbd7f834f605d2714ba3}
+
+
+This method adds a single user to an existing ride This method directly interfaces with the database via the My\-S\-Q\-Ldb package to add user to a single ride. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ride\-\_\-\-I\-D} & The ride I\-D associated with a unique ride. \\
+\hline
+{\em email} & The email address associated with the account to remove from the ride. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{namespacejoin__and__leave__rides_a16b5b2d68a757d2b4544df177b3d622c}{\index{join\-\_\-and\-\_\-leave\-\_\-rides@{join\-\_\-and\-\_\-leave\-\_\-rides}!leave\-\_\-ride@{leave\-\_\-ride}}
+\index{leave\-\_\-ride@{leave\-\_\-ride}!join_and_leave_rides@{join\-\_\-and\-\_\-leave\-\_\-rides}}
+\subsubsection[{leave\-\_\-ride}]{\setlength{\rightskip}{0pt plus 5cm}def join\-\_\-and\-\_\-leave\-\_\-rides.\-leave\-\_\-ride (
+\begin{DoxyParamCaption}
+\item[{}]{ride\-\_\-\-I\-D, }
+\item[{}]{email}
+\end{DoxyParamCaption}
+)}}\label{namespacejoin__and__leave__rides_a16b5b2d68a757d2b4544df177b3d622c}
+
+
+This method removes a user from a ride This method directly interfaces with the database via the My\-S\-Q\-Ldb package to remove a user from a single ride. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ride\-\_\-\-I\-D} & The ride I\-D associated with a unique ride. \\
+\hline
+{\em email} & The email address associated with the account to remove from the ride. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

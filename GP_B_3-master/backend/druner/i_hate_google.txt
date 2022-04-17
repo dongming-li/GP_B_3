@@ -1,0 +1,8 @@
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY
+
+so basically this can be entered in any way u feel like, and it spits out a huge JSON obj with lat long in there somewhere, super easy to find cause its JSON
+
+to get the key:
+make a google account
+go to https://developers.google.com/maps/documentation/geocoding/get-api-key
+follow the easy to use instructions to sell your soul in exchange for an API key

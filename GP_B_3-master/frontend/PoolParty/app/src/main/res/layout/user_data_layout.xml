@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id ="@+id/user_data"
+    android:layout_margin="@dimen/fab_margin"
+    android:background="@color/colorShadedPrimary">
+    <TextView
+        android:id="@+id/email"
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+    <TextView
+        android:id="@+id/user_id"
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium">
+    </TextView>
+    <TextView
+        android:id="@+id/rating"
+        android:text="Rating"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium">
+    </TextView>
+    <Button
+        android:id="@+id/message_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimaryDark"
+        android:text="message"
+        />
+    <TextView
+    android:layout_marginTop="20dip"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:textAppearance="?android:attr/textAppearanceMedium">
+    </TextView>
+
+</LinearLayout>

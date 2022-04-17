@@ -1,0 +1,30 @@
+\hypertarget{namespaceget__user__info}{\section{get\-\_\-user\-\_\-info Namespace Reference}
+\label{namespaceget__user__info}\index{get\-\_\-user\-\_\-info@{get\-\_\-user\-\_\-info}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespaceget__user__info_aabdb25b115a41aecf05ba6949aec17f5}{get\-\_\-user\-\_\-info}
+\begin{DoxyCompactList}\small\item\em Returns a J\-S\-O\-N of user account info. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespaceget__user__info_aabdb25b115a41aecf05ba6949aec17f5}{\index{get\-\_\-user\-\_\-info@{get\-\_\-user\-\_\-info}!get\-\_\-user\-\_\-info@{get\-\_\-user\-\_\-info}}
+\index{get\-\_\-user\-\_\-info@{get\-\_\-user\-\_\-info}!get_user_info@{get\-\_\-user\-\_\-info}}
+\subsubsection[{get\-\_\-user\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}def get\-\_\-user\-\_\-info.\-get\-\_\-user\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{}]{email}
+\end{DoxyParamCaption}
+)}}\label{namespaceget__user__info_aabdb25b115a41aecf05ba6949aec17f5}
+
+
+Returns a J\-S\-O\-N of user account info. 
+
+This fucntion directly interfaces with the database to pull a record of all user account information given a single email. 
+\begin{DoxyParams}{Parameters}
+{\em email} & The email address associated with the account. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+json.\-dumps(full\-\_\-info) Returns a json in the format \{'U\-I\-D', 'firstname', 'lastname', 'email', 'premium', 'driver', 'rider', 'rating', 'number\-\_\-of\-\_\-ratings', 'number\-\_\-of\-\_\-trips', 'password', 'admin', 'ban'\} 
+\end{DoxyReturn}
